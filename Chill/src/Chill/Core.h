@@ -4,7 +4,7 @@
 	#ifdef CH_BUILD_DLL
 		#define CHILL_API __declspec(dllexport)
 	#else
-		#define CHILL_API __declspec(dllexport)
+		#define CHILL_API __declspec(dllimport)
 	#endif
 #else
 	#error only support windows

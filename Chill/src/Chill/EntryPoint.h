@@ -6,7 +6,10 @@ extern Chill::Application* Chill::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Start\n");
+	Chill::Log::Init();
+	CH_CORE_WARN("Just chill, this log");
+
+	//printf("Start\n");
 	auto app = Chill::CreateApplication();
 	app->Run();
 	delete app;

@@ -1,0 +1,3 @@
+[submodule "Chill/vendor/spdlog"]
+	path = Chill/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

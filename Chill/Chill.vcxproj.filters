@@ -27,9 +27,15 @@
     <ClInclude Include="src\Chill\EntryPoint.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="src\Chill\Log.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Chill\Application.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Chill\Log.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
