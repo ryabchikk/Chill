@@ -7,7 +7,7 @@ extern Chill::Application* Chill::CreateApplication();
 int main(int argc, char** argv)
 {
 	Chill::Log::Init();
-	CH_CORE_WARN("Just chill, this log");
+	CH_CORE_WARN("Just chill");
 
 	//printf("Start\n");
 	auto app = Chill::CreateApplication();
