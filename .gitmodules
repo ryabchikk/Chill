@@ -1,0 +1,9 @@
+[submodule "Chill/vendor/spdlog"]
+	path = Chill/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "Chill/vendor/GLFW"]
+	path = Chill/vendor/GLFW
+	url = https://github.com/glfw/glfw.git
+[submodule "Chill/vendor/glm"]
+	path = Chill/vendor/glm
+	url = https://github.com/g-truc/glm.git
