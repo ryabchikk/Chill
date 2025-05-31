@@ -142,10 +142,10 @@ project "App"
                 "CH_PLATFORM_WINDOWS",
             }
 
-            postbuildcommands 
-            {
-                ("{COPY} ../bin/" .. outputdir .. "/Chill/Chill.dll ../bin/" .. outputdir .. "/App")
-            }
+            --postbuildcommands 
+            --{
+            --    ("{COPY} ../bin/" .. outputdir .. "/Chill/Chill.dll ../bin/" .. outputdir .. "/App")
+            --}
 
         filter "configurations:Debug"
             defines "CH_DEBUG"
