@@ -144,7 +144,7 @@ project "App"
 
             postbuildcommands 
             {
-                ("{COPY} ../bin/" .. outputdir .. "/Chill/Chill.dll ../bin/" .. outputdir .. "/Sandbox")
+                ("{COPY} ../bin/" .. outputdir .. "/Chill/Chill.dll ../bin/" .. outputdir .. "/App")
             }
 
         filter "configurations:Debug"

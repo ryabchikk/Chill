@@ -152,11 +152,11 @@
     <ClInclude Include="src\Random.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\GameApp.cpp" />
     <ClCompile Include="src\GameLayer.cpp" />
     <ClCompile Include="src\Level.cpp" />
     <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Random.cpp" />
-    <ClCompile Include="src\GameApp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Chill\Chill.vcxproj">
